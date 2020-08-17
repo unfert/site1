@@ -1,0 +1,105 @@
+* {margin: 0; padding: 0; border: 0;}
+body { background: url(../images/bg.gif) top repeat; font-family: Tahoma, Geneva, sans-serif; color: #4d4d5b; font-size: 14px;min-height: 100%; height: auto !important; height: 100%; position: absolute;}
+html, body { width: 100%;}
+ul { list-style: none;}
+img {border:0;}
+.clear { clear: both; height: 0px; padding: 0px; margin: 0px; line-height: 0px;}
+a { color: #6d6e71;}
+a:hover { text-decoration: none; }
+#min { min-width: 1000px; width:expression(((document.compatMode && document.compatMode=='CSS1Compat') ? document.documentElement.clientWidth : document.body.clientWidth) < 1000 ? "1000px" : "auto");}
+.centermap { width: 833px;  margin: 0 auto;}
+
+.pad { padding-top: 583px;}
+.bg { background: url(../images/body.jpg) top center no-repeat; }
+.bg3 { background: url(../images/bg3.gif) top repeat-x;position: relative; z-index: 100;}
+.bg_foot { background: url(../images/bg2.gif) bottom repeat-x; height: 1332px; position: absolute; width: 100%; bottom: 0;}
+
+/*content*/
+.content_top { background: url(../images/content_top.gif)  top no-repeat; background-color: #FFF; width: 833px;}
+.content_foot { background: url(../images/content_foot.gif) bottom no-repeat;  width: 833px;}
+.title { font-size: 30px; color: #c7202c; padding-top: 17px; text-align: center; margin-left: 8px; margin-right: 8px; border-bottom: 1px dashed #cfc2c4; padding-bottom: 9px;}
+.pad2 { padding-left: 35px; padding-right: 35px;}
+.text .red { color: #d33232; padding-top: 8px; padding-bottom: 19px;}
+.text p { padding-bottom: 15px;}
+
+.title2 { background: url(../images/title2.gif) no-repeat; width: 729px; height: 33px; font-size: 18px; padding-left: 31px; padding-top: 10px; color: #FFF; margin-top: 20px;}
+.title2 span { border-bottom: 1px dashed #ff92c2;}
+
+.block_top { background: url(../images/block_top.gif) top no-repeat; background-color: #f2efe6; width: 760px; margin-top: 2px;}
+.block_foot { background: url(../images/block_foot.gif) bottom no-repeat; width: 750px; padding: 5px;}
+
+.block3_top { background: url(../images/block3_top.gif) top no-repeat; background-color: #ffd5df; width: 760px; margin-top: 2px;}
+.block3_foot { background: url(../images/block3_foot.gif) bottom no-repeat; width: 750px; padding: 5px;}
+
+.block4_top { background: url(../images/block4_top.gif) top no-repeat; background-color: #f9f6c3; width: 760px; margin-top: 2px;}
+.block4_foot { background: url(../images/block4_foot.gif) bottom no-repeat; width: 730px; padding: 5px; padding-left: 15px; padding-right: 15px;}
+
+.foto { float: left;}
+.foto img { border: 3px solid #FFF;}
+.opis { float: left; width: 600px;}
+.name { background: url(../images/name.gif) no-repeat; width: 64px; height: 41px; padding-left: 12px; padding-top: 7px; color: #FFF; font-weight: bold; margin-top: 14px;}
+.tx { padding-left: 13px; padding-top: 11px;}
+
+.text2 { padding-top: 15px;}
+.text2 .red { color: #d33232; padding-top: 8px; padding-bottom: 19px;}
+.text2 p { padding-bottom: 12px;}
+
+
+.block2_top { background: url(../images/block2_top.gif) top no-repeat; background-color: #f7e3e7; width: 760px; margin-top: 2px;}
+.block2_foot { background: url(../images/block2_foot.gif) bottom no-repeat; width: 750px; padding: 5px;}
+
+.opis2 { float: left; width: 540px; padding-left: 13px; color: #43434b;}
+.opis2 p { padding-bottom: 20px;}
+.opis2  .title3 { font-size: 18px; color: #c9374f; font-weight: bold; padding-bottom: 4px;}
+
+.gar { background: url(../images/gar.jpg) no-repeat; width: 540px; height: 391px; margin: 0 auto; margin-top: 30px; font-size: 16px; color: #303335;}
+.gar p { padding-left: 64px; padding-right: 60px; padding-top: 52px; line-height: 27px;}
+
+.zakaz { text-align: center; padding-top: 34px; height: 56px;}
+/*content*/
+
+
+/*foot*/
+.foot { background: url(../images/foot.gif) no-repeat; width: 362px; height: 64px; margin: 0 auto; margin-top: 35px; margin-bottom: 26px; text-align: center; color: #FFF; font-size: 11px;}
+.foot a { color:#FFF; text-decoration: none; font-weight: bold;}
+.foot p { line-height: 18px; padding-top: 11px;}
+
+/*foot*/
+
+
+/*index2*/
+.text5 { text-align: center; padding-top: 20px; padding-left: 42px; padding-right: 42px;}
+.title5 { font-size: 36px; font-weight: bold; color: #df0b14;}
+.title6 { font-size: 24px; color: #efb01a; padding-top: 22px;}
+.tx15 { padding-top: 20px;}
+
+.block_new_bg { border: 2px solid #c7202c;   margin-top: 28px; margin-left: 42px; margin-right: 42px; }
+.block_new_top { }
+.block_new_foot {  padding-top: 25px; padding-bottom: 25px;}
+.inf5 {margin-left: 16px; margin-right: 40px; }
+
+.t5 { width: 317px;}
+.t6 { padding-top: 10px;}
+.link5 { background: url(../images/strelka5.gif) left 17px no-repeat; padding-left: 14px; float: right; padding-top: 10px;}
+.link5 a { color: #c7202c; font-weight: bold;}
+
+.cena5 { color: #e04c56; font-size: 14px; padding-left: 70px;}
+.cena5 span { font-size: 14px; color: #FFF; text-decoration: line-through; margin-right: 7px;}
+
+.line5 { background-color: #40403f; height: 26px; margin-left: 3px; margin-right: 3px; margin-top: 8px; padding-top: 5px; padding-left: 11px;}
+.chek5 { color: #FFF;position: relative; left: -18px; *left: -23px; white-space: nowrap;}
+.chek5 input { vertical-align: middle; margin-right: 7px;}
+.inf6 { width: 100%;}
+.inf6 td { padding-left: 12px; padding-right: 12px; text-align: center;}
+.text6 { padding-left: 31px; padding-right: 40px; padding-top: 12px;}
+.text6 p { padding-top: 2px;}
+
+.forma5 { float: right ; margin-right: 145px; margin-top: 25px; _margin-right: 72px;}
+.forma5 input { background: url(../images/input5.gif) no-repeat; width: 220px; height: 20px; padding-top: 2px; font-size: 13px; padding-left: 3px; margin-right: 40px;}
+.forma5 td {   padding-left: 11px; padding-top: 5px; padding-bottom: 8px; font-weight: bold; }
+.forma5 .linebg5 td {background: url(../images/forma_td.gif) left bottom no-repeat; padding: 0px; height: 2px;}
+.need { padding-left: 20px;}
+
+.dannue { background: url(../images/dannue.gif) no-repeat;  width: 544px; margin: 0 auto; height: 50px; font-size: 11px; padding-left: 25px; padding-right: 25px; padding-top: 15px; text-align: center;  }
+.dannue p { line-height: 15px;}
+/*index2*/
